@@ -1,17 +1,32 @@
 # KMITL Bachelor's Project
-## Freight Management Systems
-โครงการนี้เป็นการพัฒนาระบบการบริหารจัดการการขนส่งสินค้า เพื่อเพิ่มประสิทธิภาพในกิจกรรมการค้าและโลจิสติกส์ของหลายๆ องค์กร โดยมีเป้าหมายหลกในการเพิ่มประสิทธิภาพในการจัดเก็บสินค้าและการส่งสินค้าให้แก่ลูกค้าอย่างมีประสิทธิภาพมากขึ้น โดยเฉพาะในยุคปัจจุบันที่การส่งสินค้าจากธุรกิจออนไลน์มีความสําคัญอย่างมาก โครงการนี้ทำการวิเคราะห์ข้อมูลการจัดส่งเพื่อเพิ่มความแม่นยำ และความรวดเร็วในกระบวนการการพัฒนาระบบการบริหารจัดการการขนส่งสินค้านี้มีวตัถุประสงค์ที่ชัดเจนในการลดค่าใช้จ่ายในการจัดส่งสินค้า และการบริหารคลังสินค้าในองค์กร นอกจากนี้ยังเน้นในการเพิ่มประสิทธิภาพในการบริหารจัดการคลังสินค้าและการจัดส่ง ทำให้สามารถตอบสนองต่อความต้องการของลูกค้าได้อย่างมีประสิทธิภาพมากขึ้น และมีประสิทธิภาพมากยิ่งขึ้นในการจัดการสินค้าและบริการจัดส่งให้กับลูกค้า
+## 📦 Freight Management Systems
+This project focuses on developing a freight management system to enhance the efficiency of logistics and commercial operations for organizations. The primary goal is to optimize inventory storage and delivery processes, especially in the modern era where e-commerce and fast shipping are critical.
+The system analyzes shipping data to improve accuracy and speed, while aiming to reduce delivery costs and improve warehouse management. It helps organizations respond effectively to customer demands by streamlining the logistics process, improving service quality, and ensuring efficient inventory and delivery handling.
 
-## Responsibilities: 
-- Write Front-End as designed
-- Connect to APIs
+---
 
-## Technologies Used
+### 🧩 Overview
 
-- [Nextjs](https://nextjs.org/) - Next.js is a flexible React framework that gives you building blocks to create fast, full-stack web applications.
-- [Typescript](https://www.typescriptlang.org/) - TypeScript extends JavaScript by adding types to the language
-- [Node.js](https://nodejs.org/en/) - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
-- [Yarn](https://yarnpkg.com/) - Yarn is a package manager that doubles down as project manager.
+A web application designed to manage warehouse inventory and calculate the most efficient delivery route. The system consists of two main modules:
 
+- **📦 Warehouse Management**  
+  Tracks material inventory and displays storage locations clearly and intuitively.
+
+- **🗺️ Route Optimization**  
+  Implements and compares **A\*** and **Dijkstra** algorithms to determine the most efficient delivery route between locations.
+
+---
+
+### 🛠 Tech Stack
+
+- **Frontend:** Next.js, TypeScript, Tailwind CSS  
+- **Backend:** Python, Node.js  
+- **Database:** PostgreSQL
+
+---
+
+### 📌 Status
+
+✅ Completed as a graduate project with a focus on algorithm comparison and system integration.
 
 Video: https://youtu.be/qeIpr08XUgU?si=Hoj1l2kGij6xsCn
